@@ -10,7 +10,7 @@ public:
         }
         int l = 0;
         int r = nums.size() - 1;
-        for (int i = 0; i < nums.size(); i++){
+        while(l <= r){
             int m = (l + r) / 2;
             if (target == nums[m]){
                 return m;

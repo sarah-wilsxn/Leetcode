@@ -1,3 +1,3 @@
 # leetcode
-goal: 200 problems \n
+goal: 200 problems  
 current status: 13

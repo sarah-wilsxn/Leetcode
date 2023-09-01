@@ -5,7 +5,7 @@ public:
         for (auto str : strs) {
             string sorted = str;
             sort(sorted.begin(), sorted.end());
-            groups[sorted].push_back(str);
+            groups[sorted].emplace_back(str);
         }
         vector<vector<string>> ret;
         for (auto x : groups) {
